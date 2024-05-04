@@ -1,0 +1,133 @@
+/* Estilização básica */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #b0b0b0;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #b0b0b0;
+}
+
+/* Estilização da classe bloco */
+.bloco {
+    display: flex;
+}
+
+.bloco img {
+    margin-left: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 900px) {
+    .bloco {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bloco {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    main article {
+        width: 100%;
+    }
+
+    .bloco img {
+        margin-left: 0;
+    }
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+main article h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.bloco {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+.bloco p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.bloco img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+main article {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
